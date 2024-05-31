@@ -102,7 +102,7 @@ int main(void) {
         printf("%d dequeued.\n", dequeue(testQueue));
     }
     queue(testQueue, 255);
-    printf("%d peeked.\n", peek(testQueue));;
+    printf("%d peeked.\n", peek(testQueue));
     for (int i = 0; i < MAXIMUM_QUEUE_ELEMENTS + 1; i++) {
         queue(testQueue, i * 11);
     }
